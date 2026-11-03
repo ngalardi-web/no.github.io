@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXO - Ahorro de Energía</title>
+    <!-- VINCULACIÓN CORRECTA DEL CSS Y ICONOS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <!-- LOGO INTEGRADO MEDIANTE IMAGEN PNG -->
+            <a href="#inicio" class="logo">
+                <img src="Logo.png" alt="LUXO Logo" class="logo-img">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#novedades">NOVEDADES</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <!-- Link directo al documento del Manual de Armado -->
+                    <li><a href="https://drive.google.com/file/d/1Amn4z5CEr5seEvRLgBCUzzjHNV_ws8GD/view?usp=drive_link" target="_blank" class="nav-highlight">ARMADO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <a href="#contacto" class="btn btn-nav">CONTACTO</a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="section hero-section">
+        <div class="container hero-container">
+            <div class="hero-left">
+                <div class="banner-box">
+                    <h1>LUXO: Robot Inteligente de Ahorro de Energía</h1>
+                    <p>Optimiza automáticamente la iluminación y el consumo eléctrico en escuelas, empresas y hogares con la tecnología de micro:bit.</p>
+                    <br>
+                    <!-- BOTÓN DE ARMADO PRINCIPAL DIRIGIDO AL ARCHIVO EN DRIVE -->
+                    <a href="https://drive.google.com/file/d/1Amn4z5CEr5seEvRLgBCUzzjHNV_ws8GD/view?usp=drive_link" target="_blank" class="btn btn-armado">
+                        <i class="fa-brands fa-google-drive"></i> Manual de Armado (Drive)
+                    </a>
+                </div>
+                <div class="sub-banner">
+                    <p><i class="fa-solid fa-leaf"></i> Eficiencia Energética Sostenible</p>
+                </div>
+                <div class="sub-banner">
+                    <p><i class="fa-solid fa-microchip"></i> Control Inteligente con Sensores de Luz</p>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="img-container rounded-img">
+                    <img src="panel.jpg" alt="Paneles Solares LUXO">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOVEDADES -->
+    <section id="novedades" class="section novedades-section">
+        <div class="container">
+            <h2 class="section-title">NOVEDADES</h2>
+            <div class="novedades-container">
+                <div class="novedades-left">
+                    <div class="oval-vertical-img">
+                        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=800" alt="Parque Eólico">
+                    </div>
+                </div>
+                <div class="novedades-right">
+                    <div class="card-novedad">
+                        <h3>Lanzamiento del Robot LUXO</h3>
+                        <p>Iniciamos la distribución del sistema automático para optimizar la iluminación ambiental y reducir la huella de carbono.</p>
+                    </div>
+                    <div class="card-novedad">
+                        <h3>Integración Educativa</h3>
+                        <p>Aprende a armar y programar tu propio robot LUXO utilizando placas micro:bit y el entorno MakeCode.</p>
+                        <!-- Enlace directo al archivo en Google Drive -->
+                        <a href="https://drive.google.com/file/d/1Amn4z5CEr5seEvRLgBCUzzjHNV_ws8GD/view?usp=drive_link" target="_blank" class="btn-link">Ver Manual de Armado &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="section nosotros-section">
+        <div class="container">
+            <h2 class="section-title">SOBRE NOSOTROS</h2>
+            <div class="nosotros-grid">
+                <div class="nosotros-card">
+                    <div class="circle-img-container">
+                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=800" alt="Energía Renovable">
+                    </div>
+                    <h3>Nuestra Misión</h3>
+                    <p>Fomentar el uso responsable de la energía mediante soluciones tecnológicas accesibles y automatizadas.</p>
+                </div>
+                <div class="nosotros-card">
+                    <div class="circle-img-container">
+                        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800" alt="Sostenibilidad">
+                    </div>
+                    <h3>Sostenibilidad</h3>
+                    <p>Diseñamos herramientas para evitar el consumo innecesario en edificios públicos, oficinas y escuelas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="section contacto-section">
+        <div class="container">
+            <h2 class="section-title">CONTACTO</h2>
+            <div class="contacto-container">
+                <aside class="sidebar">
+                    <div class="sidebar-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <span>Biografía</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <span>Anuncios actuales</span>
+                    </div>
+                    <!-- Acceso al archivo de Drive desde la barra lateral -->
+                    <a href="https://drive.google.com/file/d/1Amn4z5CEr5seEvRLgBCUzzjHNV_ws8GD/view?usp=drive_link" target="_blank" class="sidebar-item active" style="text-decoration:none;">
+                        <i class="fa-brands fa-google-drive"></i>
+                        <span>Guía de Armado (Drive)</span>
+                    </a>
+                </aside>
+                
+                <main class="contact-main">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar Mensaje</button>
+                    </form>
+                    <div id="formFeedback"></div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 LUXO - Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="https://drive.google.com/file/d/1Amn4z5CEr5seEvRLgBCUzzjHNV_ws8GD/view?usp=drive_link" target="_blank">Manual de Armado en Drive</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- VINCULACIÓN DEL SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
